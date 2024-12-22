@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.all-container {
+  display: grid;
+  grid-template-columns: 200px auto;
+  padding-top: 10px;
+}
+.logo {
+  height: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.new {
+  background-color: #0062ff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  gap: 5px;
+}
+.nav-bar {
+  width: 200px;
+  height: 80vh;
+
+  box-shadow: 0 2px 2px 2px #ccc;
+  top: 10px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.nav-project {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+span {
+  color: blue;
+  font-size: 20px;
+}
+
+.bare {
+  width: 100%;
+  border-top: 2px solid #ccc;
+  margin: 20px 0 20px 0px;
+}
+
+.nav-parametre {
+  margin: 20px 0 20px 0;
+}
+
+.nav-section {
+  margin: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/*  boody  */
+
+.body {
+  padding: 0 40px 40px 40px;
+}
+
+.body-container {
+  box-shadow: 0 2px 2px 2px #ccc;
+  border-radius: 8px;
+}
+
+.graphique {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto 500px;
+  gap: 10px;
+}
+
+.information {
+  width: 100%;
+  box-shadow: 0 2px 2px 2px #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.graph {
+  width: 100%;
+  box-shadow: 0 2px 2px 2px #ccc;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+table {
+  border-spacing: 40px;
+}
+th {
+  padding: 8px;
+  box-shadow: 0 2px 2px 2px #ccc;
+  border-radius: 8px;
+}
+
+td {
+  padding: 8px;
+}
+
+@media (max-width: 800px) {
+  .graphique {
+    grid-template-columns: auto;
+  }
+}
