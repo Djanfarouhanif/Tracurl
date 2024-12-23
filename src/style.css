@@ -11,6 +11,12 @@
   display: grid;
   grid-template-columns: 200px auto;
   padding-top: 10px;
+  transition: 0.5s ease;
+}
+
+.toggle-container {
+  grid-template-columns: 20px auto;
+  transition: 0.5s ease;
 }
 .logo {
   height: 90px;
@@ -34,9 +40,15 @@
   height: 80vh;
 
   box-shadow: 0 2px 2px 2px #ccc;
-  top: 10px;
+
   border-radius: 8px;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
+  transition: 0.5s ease;
+}
+
+.nav-toggle {
+  transform: translateX(-160px);
+  transition: 0.5s ease;
 }
 
 .nav-project {
@@ -82,7 +94,7 @@ span {
 .graphique {
   padding: 20px;
   display: grid;
-  grid-template-columns: auto 500px;
+  grid-template-columns: auto 50%;
   gap: 10px;
 }
 
@@ -113,8 +125,32 @@ td {
   padding: 8px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .graphique {
     grid-template-columns: auto;
+  }
+  .all-container {
+    grid-template-columns: 20px auto;
+  }
+
+  .information {
+    order: 2;
+  }
+  .graph {
+    order: 1;
+  }
+  /* Partie responsie navbar */
+  .nav-bar {
+    transform: translateX(-160px);
+  }
+  .nav-toggle {
+    transform: translateX(0px);
+    transition: 0.5s ease;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    margin: 0;
   }
 }

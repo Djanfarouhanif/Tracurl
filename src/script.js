@@ -1,4 +1,14 @@
 const ctx = document.getElementById("myChart");
+const toggle = document.getElementById("toggle");
+const navToggle = document.getElementById("nav-toggle");
+const allContainer = document.querySelector(".all-container");
+
+console.log(allContainer);
+
+toggle.addEventListener("click", () => {
+  navToggle.classList.toggle("nav-toggle");
+  allContainer.classList.toggle("toggle-container");
+});
 
 new Chart(ctx, {
   type: "line",
