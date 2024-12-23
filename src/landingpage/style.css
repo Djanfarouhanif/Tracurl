@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  overflow: hidden;
+}
+.home {
+  padding: 20px;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: #0062ff;
+}
+.description {
+  text-align: center;
+}
+
+h1,
+h3 {
+  padding: 5px;
+}
+
+h3 {
+  color: #363434;
+}
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background: #0062ff;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(0.9);
+  transition: 0.2s ease-in-out;
+}
+
+.fonctionnalite {
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.fonctionnalite-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.fonction-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.fonction {
+  width: 350px;
+
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 2px 2px #363434;
+}
+
+.fonction p {
+  margin-top: 5px;
+}
+
+.fonction h1 {
+  color: #0062ff;
+}
+
+button:hover {
+  transform: scale(0.9);
+  transition: 0.2s ease-in-out;
+}
+@media (max-width: 800px) {
+  .fonction-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+
+  .home {
+    min-height: 50vh;
+  }
+  button {
+    padding: 5px;
+    font-size: 16px;
+  }
+}

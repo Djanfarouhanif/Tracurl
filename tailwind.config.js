@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       boxShadow: {
         shad: "0 2px 2px 2px #ccc",
+        inputShad: "0   2px 2px 2px #0062ff",
+      },
+
+      screens: {
+        minScreen: { max: "600px" },
       },
     },
   },

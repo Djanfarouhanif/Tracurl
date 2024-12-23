@@ -9,6 +9,28 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body class="overflow-auto">
+
+    <div id="project" class="fixed transition-all translate-x-[500px] top-[110px] right-10 w-[400px] minScreen:w-[300px] shadow-shad  rounded-2xl  bg-white z-40">
+        <div class="p-8">
+          <form action="">
+
+            <label class="block mb-4" for="name">Nom du projet</label>
+            <input class="block shadow-shad p-2 rounded-xl mb-4 outline-none hover:shadow-inputShad " type="text" placeholder="">
+            <div class="shadow-shad p-4 pt-0 rounded-xl mb-4">
+              <div class="flex justify-end p-2 cursor-pointer">Copy</div>
+              <div> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam numquam nam 
+                dolorem. Voluptate, veritatis. Praesentium animi culpa minus pariatur repellendus
+                
+                 Molestias mollitia sint, minima voluptatem voluptatibus qui odit quas ab.</div>
+             </div>
+               <button class="bg-[#0062ff] p-1 w-[70px] rounded-xl text-white">Save</button>
+          </form>
+
+          
+        </div>
+    </div>
+
+
     <!-- Container  -->
      
     <div class=" ">
@@ -16,7 +38,7 @@
       <div class="logo fixed  top-3 left-0   m-4 mt-0 right-0   z-20 ">
         <div class="flex shadow-shad w-full justify-between p-4 rounded-2xl">
           <div>Trac<span>Url</span></div>
-          <div class="new cursor-pointer">
+          <div id="new-project" class="new cursor-pointer">
             <svg width="20px" height="20px"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g id="Complete"> <g data-name="add" id="add-2"> <g> <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="12" x2="12" y1="19" y2="5"></line> <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="5" x2="19" y1="12" y2="12"></line> </g> </g> </g> </g></svg> <p>Nouveau</p> 
           </div>
         </div>
@@ -80,7 +102,7 @@
                     <tr>
                       <th style="color: rgb(243, 124, 124);">Pays</td>
                       <th >Heure</td>
-                      <th style="color: blue;">Durée sur le site</td>
+                      <th style="color: #0062ff;">Durée sur le site</td>
                     </tr>
                   </thead>
                   
@@ -94,19 +116,19 @@
                     <tr>
                       <td style="color:rgb(243, 124, 124)">Togo</td>
                       <td>12:00s</td>
-                      <td style="color: blue;">5min</td>
+                      <td style="color: #0062ff;">5min</td>
                     </tr>
 
                     <tr>
                       <td style="color:rgb(243, 124, 124)">Togo</td>
                       <td>12:00s</td>
-                      <td style="color: blue;">5min</td>
+                      <td style="color: #0062ff;">5min</td>
                     </tr>
 
                     <tr>
                       <td style="color:rgb(243, 124, 124)">Togo</td>
                       <td>12:00s</td>
-                      <td style="color: blue;">5min</td>
+                      <td style="color: #0062ff;">5min</td>
                     </tr>
                     
                   </tbody>
