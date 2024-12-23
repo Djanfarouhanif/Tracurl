@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch",
-    "prebuild": "mkdir -p dist && cp src/index.html dist/",
+    "prebuild": "mkdir -p dist && xcppy src\\index.html dist\\ /Y",
     "build": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --minify",
     "start": "serve dist"
   },
