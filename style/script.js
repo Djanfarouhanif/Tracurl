@@ -4,7 +4,7 @@ const navToggle = document.getElementById("nav-toggle");
 const allContainer = document.querySelector(".all-container");
 const newProject = document.getElementById("new-project");
 const project = document.getElementById("project");
-console.log(project);
+
 //  Nav bar section pour toggle
 toggle.addEventListener("click", () => {
   navToggle.classList.toggle("nav-toggle");
