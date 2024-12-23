@@ -1,8 +1,6 @@
 {
   "scripts": {
-    "start": "live-server dist",
-    "build:css": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --minify",
-    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --minify"
   },
   "dependencies": {
     "chart.js": "^4.4.7"
