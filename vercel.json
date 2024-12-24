@@ -6,8 +6,8 @@
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/landingpage/$1" },
-    { "src": "/dashboard", "dest": "/index.html" }
+    { "src": "/", "dest": "/landingpage/index.html" },
+    { "src": "/dashboard", "dest": "/core/index.html" }
   ],
 
   "outputDirectory": "dist"
