@@ -38,7 +38,7 @@ a {
   text-decoration: none;
 }
 span {
-  color: #ec520bdc;
+  color: #0062ff;
 }
 .description {
   text-align: center;
@@ -58,7 +58,7 @@ button {
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
-  background: #ec520bdc;
+  background: #0062ff;
   border: none;
   transition: 0.2s ease-in-out;
 }
@@ -98,7 +98,7 @@ button:hover {
 }
 
 .fonction h1 {
-  color: #ec520bdc;
+  color: #0062ff;
 }
 
 button:hover {
