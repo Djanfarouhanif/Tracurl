@@ -5,5 +5,8 @@
       "use": "@vercel/static"
     }
   ],
+  "routes": [
+    {"src": "/", "dest": "/"}
+  ],
   "outputDirectory": "dist"
 }
