@@ -5,6 +5,10 @@
       "use": "@vercel/static"
     }
   ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/landingpage/$1" },
+    { "src": "/dashboard", "dest": "/index.html" }
+  ],
 
   "outputDirectory": "dist"
 }
