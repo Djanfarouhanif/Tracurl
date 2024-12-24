@@ -126,6 +126,9 @@ button:hover {
     padding: 5px;
     font-size: 16px;
   }
+  .hanif {
+    width: 300px;
+  }
 }
 
 @keyframes hanif-toggle {
