@@ -5,10 +5,9 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
-    { "src": "/", "dest": "/dist/landingpage.html" },
-    { "src": "/auth", "dest": "/dist/accuille.html" },
-    { "src": "/dashboard", "dest": "/index.html" }
-  ],
+  "routes": [{ "src": "/", "dest": "/index.html" }],
   "outputDirectory": "dist"
 }
+
+// { "src": "/auth", "dest": "/dist/accuille.html" },
+//  { "src": "/dashboard", "dest": "/index.html" }
